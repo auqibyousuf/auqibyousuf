@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230"><defs><linearGradient id="w1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6d4aff"/><stop offset="1" stop-color="#0fa89c"/></linearGradient><linearGradient id="t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#14183a"/><stop offset="1" stop-color="#5b3fe0"/></linearGradient></defs>
+<style>.w1{animation:w 9s ease-in-out infinite alternate}.w2{animation:w 13s ease-in-out infinite alternate-reverse}@keyframes w{from{transform:translateX(-80px)}to{transform:translateX(80px)}}</style>
+<g class="w2"><path d="M-100 140 C 150 90 350 190 600 140 S 1050 90 1300 140 L1300 250 L-100 250Z" fill="#dfe6ff" fill-opacity=".85"/></g>
+<g class="w1"><path d="M-100 165 C 200 120 400 210 650 165 S 1050 130 1300 170 L1300 250 L-100 250Z" fill="url(#w1)" fill-opacity=".35"/></g>
+<text x="600" y="70" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="38" font-weight="800" fill="url(#t)" text-anchor="middle" letter-spacing="-1">Let's build something reliable and beautiful.</text>
+<text x="600" y="102" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#0b8f86" text-anchor="middle" letter-spacing="2">FROM UI ARCHITECTURE TO PRODUCTION INFRASTRUCTURE</text></svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300"><defs>
+<linearGradient id="route" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0fa89c"/><stop offset="1" stop-color="#e0457f"/></linearGradient>
+<linearGradient id="peak" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9c6f0"/><stop offset="1" stop-color="#7f93d6"/></linearGradient><clipPath id="c"><rect x="30" y="20" width="1140" height="260" rx="26"/></clipPath></defs>
+<style>.dash{stroke-dasharray:10 12;animation:dm 1.6s linear infinite}@keyframes dm{to{stroke-dashoffset:-44}}.pin{animation:pin 2.4s ease-in-out infinite}@keyframes pin{50%{transform:translateY(-8px)}}
+.ring{transform-box:fill-box;transform-origin:center;animation:ring 2.4s ease-out infinite}@keyframes ring{from{transform:scale(.4);opacity:.9}to{transform:scale(2.4);opacity:0}}
+.in{animation:in 1s cubic-bezier(.2,.8,.2,1) both}@keyframes in{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:none}}</style>
+<rect x="30" y="20" width="1140" height="260" rx="26" fill="#ffffff" stroke="#6d4aff" stroke-opacity="0.45"/>
+<g clip-path="url(#c)"><path d="M620 290 L740 120 L800 200 L880 90 L990 250 L1050 190 L1180 290Z" fill="url(#peak)"/><path d="M740 120 L765 158 L735 148 L718 170Z M880 90 L908 135 L880 124 L862 148Z" fill="#fff" fill-opacity=".9"/>
+<path class="dash" d="M660 260 C730 245 720 195 790 195 S 900 245 950 195 S 1030 125 1090 140" fill="none" stroke="url(#route)" stroke-width="5" stroke-linecap="round"/>
+<g transform="translate(1090 140)"><circle class="ring" r="14" fill="none" stroke="#e0457f" stroke-width="3"/><g class="pin"><path d="M0 -4 C-12 -22 -12 -40 0 -44 C12 -40 12 -22 0 -4Z" fill="#e0457f"/><circle cy="-30" r="5" fill="#fff"/></g></g></g>
+<g class="in" style="animation-delay:.2s"><text x="80" y="78" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#0b8f86" letter-spacing="3">SIDE PROJECT</text></g>
+<g class="in" style="animation-delay:.35s"><text x="78" y="134" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="48" font-weight="800" fill="#14183a" letter-spacing="-1.5">GoKashmir</text></g>
+<g class="in" style="animation-delay:.5s"><text x="80" y="172" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="17.5" fill="#3a4170">A travel super-app for Kashmir:</text><text x="80" y="198" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="17.5" fill="#3a4170">traveller app, partner app, FastAPI backend.</text><text x="80" y="230" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#6a72a8">Expo / React Native · TypeScript · PostgreSQL</text></g>
+</svg>

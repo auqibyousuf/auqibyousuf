@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Auqib Yousuf Ahangar, Frontend and DevOps Engineer">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff7ee"/><stop offset=".55" stop-color="#e9eeff"/><stop offset="1" stop-color="#cdd8ff"/></linearGradient>
+<radialGradient id="a1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#6d4aff" stop-opacity="0.35"/><stop offset="1" stop-color="#6d4aff" stop-opacity="0"/></radialGradient>
+<radialGradient id="a2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#0fa89c" stop-opacity="0.24999999999999997"/><stop offset="1" stop-color="#0fa89c" stop-opacity="0"/></radialGradient>
+<radialGradient id="a3" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#e0457f" stop-opacity="0.14999999999999997"/><stop offset="1" stop-color="#e0457f" stop-opacity="0"/></radialGradient>
+<linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#14183a"/><stop offset=".5" stop-color="#5b3fe0"/><stop offset="1" stop-color="#0b8f86"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity="0.0"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="type"><rect x="70" y="268" width="0" height="40"><animate attributeName="width" values="0;640;640;0" keyTimes="0;.45;.85;1" dur="10s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="nameclip"><text x="70" y="226" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-2">Auqib Yousuf</text></clipPath>
+<filter id="blur"><feGaussianBlur stdDeviation="30"/></filter></defs>
+<style>
+.tw{animation:tw 3.5s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+.rise{animation:rise 1.2s cubic-bezier(.2,.8,.2,1) both}@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.d1{animation:d1 22s ease-in-out infinite alternate}.d2{animation:d2 28s ease-in-out infinite alternate}.d3{animation:d3 18s ease-in-out infinite alternate}
+@keyframes d1{to{transform:translate(160px,40px)}}@keyframes d2{to{transform:translate(-200px,30px)}}@keyframes d3{to{transform:translate(90px,-30px)}}
+.p1{animation:p 40s linear infinite}.p2{animation:p 28s linear infinite}.p3{animation:p 18s linear infinite}@keyframes p{from{transform:translateX(0)}to{transform:translateX(-300px)}}
+.cursor{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+.shine{animation:sh 5s ease-in-out infinite}@keyframes sh{0%{transform:translateX(-700px)}60%,100%{transform:translateX(700px)}}
+.float{animation:fl 6s ease-in-out infinite}@keyframes fl{50%{transform:translateY(-10px)}}
+</style>
+<rect width="1200" height="440" fill="url(#sky)"/>
+<g filter="url(#blur)"><circle class="d1" cx="200" cy="120" r="190" fill="url(#a1)"/><circle class="d2" cx="980" cy="90" r="210" fill="url(#a2)"/><circle class="d3" cx="620" cy="260" r="170" fill="url(#a3)"/></g>
+<g class="float"><circle cx="1040" cy="100" r="60" fill="#ffb347" fill-opacity=".25"/><circle cx="1040" cy="100" r="38" fill="#ffb347"/></g>
+<g class="p1"><path d="M0,440 L-40,276 L23,283 L100,263 L170,229 L255,217 L325,262 L379,284 L452,260 L541,222 L618,234 L675,252 L739,289 L804,243 L852,221 L900,218 L983,222 L1042,249 L1118,291 L1195,251 L1236,188 L1318,197 L1378,209 L1454,290 L1500,440Z" fill="#b9c6f0" fill-opacity="0.9"/></g><g class="p2"><path d="M0,440 L-40,314 L50,305 L131,278 L200,263 L243,263 L313,280 L359,318 L412,344 L501,298 L545,292 L593,273 L633,285 L683,263 L735,281 L788,304 L840,328 L899,324 L948,302 L1026,264 L1111,283 L1170,296 L1240,333 L1296,338 L1383,294 L1458,261 L1500,440Z" fill="#9fb0e6" fill-opacity="0.95"/></g><g class="p3"><path d="M0,440 L-40,366 L8,392 L56,361 L109,361 L180,337 L232,321 L303,348 L360,342 L424,352 L470,377 L549,377 L592,358 L663,331 L716,337 L760,337 L844,337 L921,354 L989,380 L1056,371 L1102,361 L1164,326 L1236,332 L1298,330 L1342,321 L1426,356 L1466,373 L1500,440Z" fill="#7f93d6" fill-opacity="1"/></g>
+<g class="rise" style="animation-delay:.15s"><text x="72" y="128" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#0b8f86" letter-spacing="3">HELLO, WORLD  /  BANGALORE, INDIA</text></g>
+<g class="rise" style="animation-delay:.3s"><text x="70" y="226" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-2" fill="url(#name)">Auqib Yousuf</text>
+<g clip-path="url(#nameclip)"><rect class="shine" x="0" y="140" width="160" height="110" fill="url(#shine)" transform="skewX(-20)"/></g></g>
+<g class="rise" style="animation-delay:.6s"><g clip-path="url(#type)"><text x="72" y="296" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#14183a">Frontend and DevOps Engineer</text></g>
+<rect class="cursor" x="72" y="272" width="3" height="30" fill="#0b8f86"><animate attributeName="x" values="72;552;552;72" keyTimes="0;.45;.85;1" dur="10s" repeatCount="indefinite"/></rect></g>
+<g class="rise" style="animation-delay:.9s"><text x="72" y="346" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="18" fill="#3a4170">7 years shipping scalable web apps, from pixel to production infrastructure.</text>
+<text x="72" y="374" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#14183a" fill-opacity=".75">React · Next.js · Drupal · Docker · Kubernetes · Terraform · AWS</text></g>
+</svg>

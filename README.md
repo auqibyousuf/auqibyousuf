@@ -1,34 +1,87 @@
 <div align="center">
 
-<img src="./assets/hero.svg" alt="Auqib Yousuf, Frontend Developer from Srinagar, Kashmir" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img src="./assets/hero-light.svg" alt="Auqib Yousuf Ahangar, Frontend and DevOps Engineer" width="100%">
+</picture>
 
 <br/>
 
 <a href="https://www.linkedin.com/in/aakkiibb"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:yauqib@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-7c5cff?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://github.com/wurkloophq"><img src="https://img.shields.io/badge/Wurkloop-Studio-19d3c5?style=for-the-badge&logo=github&logoColor=white" alt="Wurkloop" /></a>
+<a href="mailto:yauqib@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-6d4aff?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://auqib.vercel.app"><img src="https://img.shields.io/badge/Portfolio-auqib.vercel.app-0fa89c?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 
-<img src="./assets/divider.svg" alt="" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
+  <img src="./assets/divider-light.svg" alt="" width="100%">
+</picture>
 
-</div>
+<h3>Impact in numbers</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg">
+  <img src="./assets/stats-light.svg" alt="7+ years of experience, 20% lower infrastructure cost, 20% faster builds, 3 teams on Docker and EKS, 50% less manual processing" width="100%">
+</picture>
 
-<div align="center">
-<img src="./assets/about.svg" alt="Interfaces, Mobile and Web, Motion and Polish" width="100%" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
+  <img src="./assets/divider-light.svg" alt="" width="100%">
+</picture>
 
-<div align="center">
-<img src="./assets/divider.svg" alt="" width="100%" />
-<h3>Tools I reach for</h3>
-<img src="./assets/stack.svg" alt="React, TypeScript, React Native, Expo, Tailwind, Storybook, Vitest, Drupal, Twig, PHP, FastAPI, PostgreSQL, Git, Figma" width="100%" />
-</div>
+<h3>Skills</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skills-light.svg">
+  <img src="./assets/skills-light.svg" alt="Frontend: React, Next.js, TypeScript. CMS and backend: Drupal, Twig, Laravel, PHP, Node.js. DevOps and cloud: AWS, Docker, Kubernetes, Terraform, CI/CD" width="100%">
+</picture>
 
-<div align="center">
-<img src="./assets/divider.svg" alt="" width="100%" />
-<a href="https://github.com/wurkloophq/gokashmir"><img src="./assets/project.svg" alt="GoKashmir: a travel super-app for Kashmir" width="100%" /></a>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
+  <img src="./assets/divider-light.svg" alt="" width="100%">
+</picture>
+
+<h3>Experience</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/experience-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/experience-light.svg">
+  <img src="./assets/experience-light.svg" alt="Specbee Consulting 2026, Learntastic 2024 to 2026, Axelerant 2021 to 2024, CSIR 2020 to 2021, Mindgates 2018 to 2020" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
+  <img src="./assets/divider-light.svg" alt="" width="100%">
+</picture>
+
+<h3>Education, certifications and languages</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/credentials-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/credentials-light.svg">
+  <img src="./assets/credentials-light.svg" alt="Bachelor in Computer Science, Meta Front-End Developer Specialization, Acquia Site Studio, JavaScript and TypeScript certification, English" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
+  <img src="./assets/divider-light.svg" alt="" width="100%">
+</picture>
+
+<a href="https://github.com/wurkloophq/gokashmir"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/project-light.svg">
+  <img src="./assets/project-light.svg" alt="GoKashmir, a travel super-app for Kashmir" width="100%">
+</picture></a>
 
 <br/>
 
-<div align="center">
-<img src="./assets/footer.svg" alt="Let's build something beautiful" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg">
+  <img src="./assets/footer-light.svg" alt="Let's build something reliable and beautiful" width="100%">
+</picture>
+
 </div>
